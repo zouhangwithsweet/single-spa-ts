@@ -9,7 +9,7 @@ registerApplication(
 registerApplication(
   'react',
   () => import('./src/react/react.app'),
-  () => location.pathname === "/vue"  ? false : true
+  () => location.pathname.startsWith('/vue')  ? false : true
 )
 
 start()

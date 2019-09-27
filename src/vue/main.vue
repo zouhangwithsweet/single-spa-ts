@@ -1,6 +1,7 @@
 <template>
   <div class="hello">
       <h1>Hello from Vue</h1>
+      <router-view></router-view>
       <md-button type="primary" @click="increment">Click Me</md-button>
   </div>
 </template>
@@ -16,6 +17,7 @@ export default {
   methods: {
     increment() {
       Toast.info('6666')
+      this.$router.push('/hello')
     }
   }
 }
