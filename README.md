@@ -1,6 +1,6 @@
 ## single-spa-demo
 
-A singlle-spa base React,Vue,Typescript or More, building for Micro FrontEnds.
+A single-spa base React,Vue,Typescript or More, building for Micro FrontEnds.
 
 ### how to use
 
